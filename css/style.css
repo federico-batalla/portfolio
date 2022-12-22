@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*------header---------*/
+
+header{
+    background: #000000;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+header .contenedor .contenedor-logo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+header .contenedor .contenedor-logo .logo p{
+    font-family: 'Martian Mono', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #34c6a1;
+
+}
+
+
+header .contenedor .contenedor-menu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+header .contenedor .contenedor-menu .menu a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+    border: 2px solid transparent;
+    padding-bottom: 6px;
+    margin-left: 20px;
+
+    
+}
+
+header .contenedor .contenedor-menu .menu a:hover{
+    border-bottom: 2px solid #34c6a1;
+}
+
+
+/* ---------------- main----------------- */
