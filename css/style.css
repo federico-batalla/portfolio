@@ -4,7 +4,7 @@
 
 body{
     background: #000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #fff;
 }
@@ -66,3 +66,77 @@ header .contenedor .contenedor-menu .menu a:hover{
 
 
 /* ---------------- main----------------- */
+
+.home .contenedor{
+    height: 600px;
+    
+}
+
+.home .contenedor .contenedor-tarjeta{
+    height: 400px;
+    background: #1e1e1e;
+    width: 345px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+.home .contenedor .contenedor-tarjeta .imagen{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-top: -152px;
+    border: 30px solid rgba(52, 198, 161,30%);
+
+}
+
+.home .contenedor .contenedor-tarjeta .imagen img{
+    
+    margin: 0;
+    border-radius: 100%;
+    border : 10px solid #34c6a1
+
+    
+}
+
+
+.home .contenedor .contenedor-tarjeta  .titulo h1,h2{
+    text-align: center;
+}
+
+.home .contenedor .contenedor-tarjeta  .redes-sociales{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+        
+}
+
+.home .contenedor .contenedor-tarjeta  .redes-sociales a{
+    color: #ffffff;
+    font-size: 26px;
+    display: block;
+    border-radius: 10px;
+    width: 50px;  
+    text-align: center;
+    
+    
+    margin: 0 10px;
+    padding: 10px;
+
+}
+
+.home .contenedor .contenedor-tarjeta  .redes-sociales .facebook:hover{
+    background: #1877f2;
+    border: 1px solid transparent;
+}
+.home .contenedor .contenedor-tarjeta  .redes-sociales .instagram:hover{
+    background: #405de6;
+}
+.home .contenedor .contenedor-tarjeta  .redes-sociales .linkedin:hover{
+    background: #0077b5;
+}
