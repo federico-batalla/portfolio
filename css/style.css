@@ -56,4 +56,39 @@ body main .container .row .contenedor-tarjeta .row .contenedor-imagen .contorno 
 body main .container .row .contenedor-tarjeta .row .contenedor-titulo {
   padding: 20px 0;
   text-align: center;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales {
+  padding: 20px 0;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .insta:hover {
+  background: linear-gradient(70deg, #515bd4, #dd2a7b);
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .insta:hover i {
+  color: #fff;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .what:hover {
+  background: #25D366;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .what:hover i {
+  color: #fff;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .linkedin:hover {
+  background: #0077b5;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .linkedin:hover i {
+  color: #fff;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red a {
+  background: #000;
+  padding: 10px 13px;
+  border-radius: 10px;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red a i {
+  font-size: 35px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
