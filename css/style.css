@@ -37,6 +37,7 @@ body main .container .row .contenedor-tarjeta {
   background: #000;
   color: #fff;
   border-radius: 10px;
+  border: solid 5px rgb(50, 100, 90);
 }
 body main .container .row .contenedor-tarjeta .row .contenedor-imagen {
   margin-top: -175px;
@@ -44,12 +45,12 @@ body main .container .row .contenedor-tarjeta .row .contenedor-imagen {
   justify-content: center;
 }
 body main .container .row .contenedor-tarjeta .row .contenedor-imagen .contorno {
-  border: solid 35px rgb(50, 100, 90);
+  border: solid 30px rgb(50, 100, 90);
   border-radius: 50%;
   padding: 0 0;
 }
 body main .container .row .contenedor-tarjeta .row .contenedor-imagen .contorno img {
-  width: 300px;
+  width: 275px;
   border-radius: 50%;
   border: solid 10px #66c8b1;
   margin: 0;
@@ -57,6 +58,12 @@ body main .container .row .contenedor-tarjeta .row .contenedor-imagen .contorno 
 body main .container .row .contenedor-tarjeta .row .contenedor-titulo {
   padding: 20px 0;
   text-align: center;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-titulo h1 {
+  font-size: 36px;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-titulo h2 {
+  font-size: 24px;
 }
 body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales {
   padding: 20px 0;
@@ -84,14 +91,26 @@ body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .c
 body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .linkedin:hover i {
   color: #fff;
 }
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .git:hover {
+  background: #fff;
+}
+body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red .git:hover i {
+  color: #000000;
+}
 body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red a {
   background: #000;
-  padding: 15px;
+  padding: 13px 15px 12px 15px;
   border-radius: 100%;
+  text-align: center;
+  justify-content: center;
 }
 body main .container .row .contenedor-tarjeta .row .contenedor-redes-sociales .container .row .contenedor-red a i {
   font-size: 35px;
   color: #fff;
+}
+body .sobre-mi {
+  color: #fff;
+  background: #000;
 }
 body .sobre-mi .container {
   padding: 40px 0;
@@ -99,11 +118,56 @@ body .sobre-mi .container {
 body .sobre-mi .container .icono {
   display: flex;
   justify-content: center;
+  padding-bottom: 40px;
 }
 body .sobre-mi .container .icono .contenedor-icono {
   text-align: center;
 }
 body .sobre-mi .container .icono .contenedor-icono i {
-  color: #3b5998;
+  color: #3a72ea;
   font-size: 35px;
+}
+body .sobre-mi .container .presentacion {
+  text-align: center;
+  padding-bottom: 40px;
+}
+body .sobre-mi .container .presentacion p {
+  font-size: 18px;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-sub {
+  text-align: left;
+  padding-bottom: 10px;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-detalles .preguntas {
+  text-align: left;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-detalles .preguntas p {
+  margin-left: 15px;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-detalles .respuestas {
+  text-align: left;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-detalles .respuestas .verde {
+  background: #66c8b1;
+  border-radius: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+  padding-bottom: 2px;
+  font-weight: 600;
+}
+body .sobre-mi .container .datos .detalles-personales .contenedor-detalles .respuestas .amarillo {
+  background: #e1e172;
+  border-radius: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+body .sobre-mi .container .datos .mis-intereses .intereses-sub {
+  text-align: left;
+  padding-bottom: 10px;
+}
+body .sobre-mi .container .datos .contenedor-icon {
+  text-align: center;
+  background: #1d1d1d;
 }/*# sourceMappingURL=style.css.map */
