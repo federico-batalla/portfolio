@@ -1,8 +1,14 @@
+$color-principal:#66c8b1
+$color-secundario:rgba(50,100,90,2)
+$color-fondo:#000
+$color-fondo-secundario:#1d1d1d
+    
 body
     font-size: 16px
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
     header
-        background: #000   
+        background: #000  
+        
         .opciones
             
             .logo
@@ -11,13 +17,13 @@ body
                   font-size: 32px
                   font-weight: 700
             .nave
-                 text-align: right
-                 line-height: 50px
-                 a
-                     color: #fff
-                     margin-left: 25px
-                     font-size: 16px
-                     text-decoration: none
+                text-align: right
+                line-height: 50px
+                a
+                    color: #fff
+                    margin-left: 25px
+                    font-size: 16px
+                    text-decoration: none        
                      
     main
         background: url(../img/fondo.jpeg)
@@ -92,6 +98,7 @@ body
                                             border-radius: 100%
                                             text-align: center
                                             justify-content: center
+                                            display: inline-block
                                             
                                             
                                             i
@@ -127,8 +134,8 @@ body
                         
                         .preguntas
                             text-align: left
-                            p
-                                margin-left: 15px
+                            
+                                
                         .respuestas
                             text-align: left
                             .verde
@@ -149,12 +156,41 @@ body
                 .mis-intereses
                     .intereses-sub
                         text-align: left
-                        padding-bottom: 10px
-                .contenedor-icon
+                        
+                    .contenedor-icon
+                        text-align: center
+                        background: #1d1d1d
+                        width: 90%
+                        margin: 10px 0
+                        border-radius:20px
+                        border: solid 3px #66c8b1
+                        padding:5px
+                        i
+                            
+                            font-size: 22px
+                            padding-bottom: 10px
+                            margin-top: 10px
+                            color: #FFF
+                        p
+                            padding-bottom: 5px       
+            .boton-cv
+                padding-top: 20px
+                .contenedor-btn
+                    display: flex
                     text-align: center
-                    background: #1d1d1d
-                               
-
+                    justify-content: center
+                    a
+                        display: block
+                        border-radius: 20px
+                        background: #fff
+                        width: 11%
+                        padding: 0px 5px
+                        color: #000
+                        font-size: 18px
+                        text-decoration: none
+                    a:hover
+                       background: $color-principal
+                       color: #fff
 
                     
 
